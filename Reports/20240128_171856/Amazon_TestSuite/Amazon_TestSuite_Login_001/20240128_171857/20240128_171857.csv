@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login_001,Edge Chromium 121,,,28-01-2024 17:19:10,28-01-2024 17:20:06,55.809s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login_001,Edge Chromium 121,,,28-01-2024 17:19:22,28-01-2024 17:20:06,43.859s,PASSED
+Start listener action : sampleBeforeTestCase,Edge Chromium 121,,,28-01-2024 17:19:22,28-01-2024 17:19:25,2.771s,PASSED
+Start setup action : setupTestCase,Edge Chromium 121,,,28-01-2024 17:19:25,28-01-2024 17:19:34,9.017s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 17:19:34,28-01-2024 17:19:36,1.991s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 121,,,28-01-2024 17:19:36,28-01-2024 17:19:44,8.432s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Edge Chromium 121,,,28-01-2024 17:19:44,28-01-2024 17:20:00,15.621s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""9912667488"")",Edge Chromium 121,,,28-01-2024 17:20:00,28-01-2024 17:20:01,1.027s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Edge Chromium 121,,,28-01-2024 17:20:01,28-01-2024 17:20:04,3.243s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""WLLQQNs5EWZLJLX2thenaj8G2Ax0LCa1"")",Edge Chromium 121,,,28-01-2024 17:20:04,28-01-2024 17:20:05,0.560s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Login_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Edge Chromium 121,,,28-01-2024 17:20:05,28-01-2024 17:20:05,0.403s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 17:20:05,28-01-2024 17:20:06,0.486s,PASSED
+Start tear down : tearDownTestCase,Edge Chromium 121,,,28-01-2024 17:20:06,28-01-2024 17:20:06,0.010s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 17:20:06,28-01-2024 17:20:06,0.011s,PASSED
